@@ -691,7 +691,7 @@ int main(int argc, char **argv) {
 	SDL_RenderSetLogicalSize(renderer, SCREEN_WIDTH, SCREEN_HEIGHT);
 	SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
 
-	SDL_SetWindowTitle(window, "2048 - Jakub Fedorowicz 176087");
+	SDL_SetWindowTitle(window, "2048 - Studies project");
 
 	screen = SDL_CreateRGBSurface(0, SCREEN_WIDTH, SCREEN_HEIGHT, 32, 0x00FF0000, 0x0000FF00, 0x000000FF, 0xFF000000);
 
